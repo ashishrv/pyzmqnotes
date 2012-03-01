@@ -1,0 +1,29 @@
+
+
+
+                          Adiminstrator
+                          configures
+                                |
+                            +----------+
+                            |Messaging |
+                            |Middleware|
+                            +----------+
+        upstream                | midstream           downstreams
+                           +-------------+          +------------+
+    +------------+         |Named        |<---------|Applications|
+    |Applications|-------> |Message Queue|   |      +------------+
+    +------------+   |     +-------------+   |
+                     |                       connect
+                     |                       to get messages
+                 connect to
+                 publish messages
+
+
+
+
+
+
+
+
+
+
