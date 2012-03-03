@@ -6,7 +6,7 @@ Queue
     This is the intermediary that sits between clients and servers, forwarding request to servers and relaying replies back to client.
     The ZMQ device takes a device type (ZMQ.QUEUE) and the two sockets bound to well known ports. 
 
-.. image:: queue.png
+.. image:: Queue.png
     :align: center
 
 **queue_device.py**
