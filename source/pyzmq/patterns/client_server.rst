@@ -26,19 +26,19 @@ Each Request/Reply is paired and has to be successful.
 
 Provide port as command line argument to run server at two different ports. 
 
-.. literalinclude:: ../code/reqrep_server.py
+.. literalinclude:: code/reqrep_server.py
     :lines: 1-9
     :emphasize-lines: 5-8
     
 **Server** is created with a socket type "**zmq.REP**" and is bound to well known port.
 
-.. literalinclude:: ../code/reqrep_server.py
+.. literalinclude:: code/reqrep_server.py
     :lines: 9-12
     :emphasize-lines: 2-3
 
 It will block on recv() to get a request before it can send a reply.    
 
-.. literalinclude:: ../code/reqrep_server.py
+.. literalinclude:: code/reqrep_server.py
     :lines: 12-
     :emphasize-lines: 5,8
 
@@ -46,20 +46,20 @@ It will block on recv() to get a request before it can send a reply.
 
 Provide two ports of two different servers to connect to simultaneously. 
 
-.. literalinclude:: ../code/reqrep_client.py
+.. literalinclude:: code/reqrep_client.py
     :lines: 1-12
     :emphasize-lines: 4-11
 
 **Client** is created with a socket type "**zmq.REQ**". 
 You should notice that the same socket can connect to two different servers.
 
-.. literalinclude:: ../code/reqrep_client.py
+.. literalinclude:: code/reqrep_client.py
     :lines: 13-19
     :emphasize-lines: 4,6
 
 You have to send a request and then wait for reply.    
 
-.. literalinclude:: ../code/reqrep_client.py
+.. literalinclude:: code/reqrep_client.py
     :lines: 19-
     :emphasize-lines: 4,6    
 

@@ -17,9 +17,8 @@ It is higher level concept than sockets and provides as lower level conceptual f
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
-   ZeroMQ                <zeromq/zeromq_basics.rst>
    PyZmq                 <pyzmq/pyzmq.rst>
    Various references    <references/links.rst>
    Competing products    <references/products.rst>
