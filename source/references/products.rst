@@ -10,7 +10,7 @@ Competing or related products
     It is built using Python, Twisted, Cyclone (a Tornado implementation over twisted) 
     and Redis.
     
-.. sidebar:: Disclaimer
+.. sidebar:: These are not the same
 
     Some of these are much more and different from what ZeroMQ is.
     Some of these are message/queue/broker based design that offer
