@@ -11,6 +11,8 @@ It helps in scaling where services could be handled by different applications th
 
     These are my notes based on reading the excellent articles on web, ØMQ guide and pyzmq documentation and trying out examples.
     This is still work in progress. 
+    
+    For feedback and issues, please send a mail to "ashish.vid" at gmail dot com.
 
 
 Distributed applications are also easier to change compared to a monolithic applications.
