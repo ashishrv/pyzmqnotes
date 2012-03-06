@@ -30,7 +30,9 @@ It is higher level concept than sockets and provides as lower level conceptual f
    Competing products    <references/products.rst>
    
 
-
+.. heartbeat, credit-based flow control, reliable pipelines, presence
+.. & discovery using UDP, bridging (like VTX), file transfer, security,
+.. and serialization.
 
 
 * :ref:`genindex`
