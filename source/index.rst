@@ -3,9 +3,10 @@
 Learning ØMQ with pyzmq
 =====================================
 
-Messaging connects applications running on a variety of platforms, and written in a variety of languages, across a network. 
-It is one of the solution in decoupling and creating distributed applications. 
-It helps in scaling where services could be handled by different applications that does one job well.
+ØMQ is a neat messaging library that allows you that allows you to build your own messaging infrastructure.
+ØMQ does not provide out of box messaging system experience like ActiveMQ or RabbitMQ.
+It is higher level concept than sockets and provides as low level conceptual framework as possible to build messaging systems.
+It can help build framework that scales where services could be handled by different applications that does one job well.
 
 .. sidebar:: Disclaimer
 
@@ -17,12 +18,12 @@ It helps in scaling where services could be handled by different applications th
 
 Distributed applications are also easier to change compared to a monolithic applications.
 It's expensive to try to define the behavior of each of many software applications that work together in a large network. 
-It's much cheaper, and more flexible, to define the interfaces between them: the APIs. Messaging is an API that can be stretched across a network
+It's much cheaper, and more flexible, to define the interfaces between them: the APIs. Messaging is an API that can be stretched across a network.
 
-ZeroMQ does not provide out of box messaging system experience like ActiveMQ or RabbitMQ. 
-It is more of a messaging library that allows you to build your own messaging infrastructure. 
-It is higher level concept than sockets and provides as lower level conceptual framework as possible to build messaging systems.
+`pyzmq <https://github.com/zeromq/pyzmq>`_ provides python bindings for ØMQ and allows you to leverage ØMQ in python applications.
+I have been using `pyzmq-static <https://bitbucket.org/brandon/pyzmq-static>`_ with virtualenv as it neatly provides isolated sandbox for my learning.
 
+This tutorial is my journey into ØMQ programming with python. Hopefully, it will help you too. 
 
 .. toctree::
    :maxdepth: 3
