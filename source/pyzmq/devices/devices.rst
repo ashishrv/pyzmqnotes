@@ -1,4 +1,4 @@
-ZMQ Devices
+ØMQ Devices
 ======================
 
 You must have noticed that you can bind a port to any of the ZMQ Socket types.

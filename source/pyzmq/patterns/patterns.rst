@@ -1,4 +1,4 @@
-Messaging Patterns
+ØMQ Messaging Patterns
 ==============================
 
 .. toctree::

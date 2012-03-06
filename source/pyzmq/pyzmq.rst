@@ -6,8 +6,8 @@ pyzmq code and examples
    :maxdepth: 2
    
    Basics    <basics.rst>
-   ZMQ Messaging Patterns <patterns/patterns.rst>
-   ZMQ Devices <devices/devices.rst>
+   ØMQ Messaging Patterns <patterns/patterns.rst>
+   ØMQ Devices <devices/devices.rst>
    
    
 

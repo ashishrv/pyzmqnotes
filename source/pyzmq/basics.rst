@@ -1,4 +1,4 @@
-PyZmq Basics
+ØMQ and pyzmq Basics
 =======================
 
 Installation
