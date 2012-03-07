@@ -8,7 +8,9 @@ pyzmq code and examples
    Basics    <basics.rst>
    ØMQ Messaging Patterns <patterns/patterns.rst>
    ØMQ Devices <devices/devices.rst>
+   Multiprocess and pyzmq <multiprocess/multiprocess.rst>
    
+
    
 
 
