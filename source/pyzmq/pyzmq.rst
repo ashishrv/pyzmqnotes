@@ -6,14 +6,6 @@ These are also inspired by the code already provided by `ØMQ guide <http://zgui
 many other examples on articles posted on the web. 
 I have worked on each of the example as a part of my learning. The structure represents, how I have been learning ØMQ.
 
-.. topic:: Working with the examples
-
-	Code is present as folders inside each of the chapters.
-	You can obtain them through Github. 
-	
-	git clone git://github.com/ashishrv/pyzmqnotes.git
-
-
 
 .. toctree::
    :maxdepth: 2

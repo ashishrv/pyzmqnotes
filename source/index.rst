@@ -25,6 +25,10 @@ I have been using `pyzmq-static <https://bitbucket.org/brandon/pyzmq-static>`_ w
 
 This tutorial is my journey into ØMQ programming with python. Hopefully, it will help you too. 
 
+Code is present as folders inside each of the chapters. You can obtain them through `Github <https://github.com/ashishrv/pyzmqnotes>`_. 
+
+
+
 .. toctree::
    :maxdepth: 3
    
