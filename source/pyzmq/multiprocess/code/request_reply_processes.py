@@ -38,6 +38,3 @@ if __name__ == "__main__":
         
     # Now we can connect a client to all these servers
     Process(target=client, args=(server_ports,)).start()
-    
-
-

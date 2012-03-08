@@ -8,7 +8,7 @@ Only way is to invoke these little programs separately.
 This served well to understand the various ØMQ patterns and devices.
 How ever, it is far better to use multiprocessing module.
 
-This part of tutorial has nothing to do with ØMQ but how do we use it with python programs.
+This part of tutorial has nothing to do with ØMQ but how we use it with python programs.
 
 **request_reply_processes.py**
 
