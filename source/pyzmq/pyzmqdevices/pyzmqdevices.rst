@@ -11,4 +11,6 @@ pyzmq provides convenient classes for launching devices in a background thread o
    :maxdepth: 2
    
    Streamer    <streamer.rst>
+   Queue       <queue.rst>
+   
 
