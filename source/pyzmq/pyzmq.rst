@@ -15,6 +15,9 @@ I have worked on each of the example as a part of my learning. The structure rep
    ØMQ Devices <devices/devices.rst>
    Multiprocess and pyzmq <multiprocess/multiprocess.rst>
    Polling and sockets <multisocket/multisocket.rst>
+   PyZmq Devices      <pyzmqdevices/pyzmqdevices.rst>
+   
+
    
    
 
