@@ -8,12 +8,10 @@ Learning ØMQ with pyzmq
 It is higher level concept than sockets and provides as low level conceptual framework as possible to build messaging systems.
 It can help build framework that scales where services could be handled by different applications that does one job well.
 
-.. sidebar:: Disclaimer
+.. sidebar:: Note
 
     These are my notes based on reading the excellent articles on web, ØMQ guide and pyzmq documentation and trying out examples.
-    This is still work in progress. 
-    
-    For feedback and issues, please send a mail to "ashish.vid" at gmail dot com.
+    This is still a work in progress.     
 
 
 Distributed applications are also easier to change compared to a monolithic applications.
@@ -25,7 +23,7 @@ I have been using `pyzmq-static <https://bitbucket.org/brandon/pyzmq-static>`_ w
 
 This tutorial is my journey into ØMQ programming with python. Hopefully, it will help you too. 
 
-Code is present as folders inside each of the chapters. You can obtain them through `Github <https://github.com/ashishrv/pyzmqnotes>`_. 
+
 
 
 
@@ -45,4 +43,28 @@ Code is present as folders inside each of the chapters. You can obtain them thro
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+Code
+-----------
+
+Code is present as folders inside each of the chapters. 
+You can obtain them through `github pyzmqnotes project <https://github.com/ashishrv/pyzmqnotes>`_. 
+
+Acknowledgements
+--------------------
+
+Learning and experimenting with `ØMQ <http://www.zeromq.org/>`_ through python adaptor `pyzmq <https://github.com/zeromq/pyzmq>`_ has been a very exciting experience.
+Thanks to all those who have contributed to it. Many folks have written articles and blogged on ØMQ. 
+I wouldn't have stumbled on this great tool without that. 
+I have tried to mention some of the excellent articles that I happened to read on this subject in the reference section.
+
+I always begrudged writing documents till `Sphinx <http://sphinx.pocoo.org>`_ came along. 
+It is quite exciting to be able to share my notes through `readthedocs <http://readthedocs.org/>`_.
+Of course, all these has been made very easy through `github <https://github.com/>`_.
+
+Contact
+-----------------
+
+Do send your suggestions/corrections for improvement at "ashish.vid" at gmail dot com (Ashish Vidyarthi).
+ 
 
