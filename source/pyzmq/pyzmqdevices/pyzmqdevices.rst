@@ -12,5 +12,7 @@ pyzmq provides convenient classes for launching devices in a background thread o
    
    Streamer    <streamer.rst>
    Queue       <queue.rst>
+   Monitored Queue <monitorqueue.rst>
    
+
 
