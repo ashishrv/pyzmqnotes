@@ -4,8 +4,7 @@ import sys
 
 port = "5556"
 if len(sys.argv) > 1:
-    port =  sys.argv[1]
-    int(port)
+    port = int(sys.argv[1])
 
 context = zmq.Context()
 socket = context.socket(zmq.REP)
