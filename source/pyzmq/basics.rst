@@ -6,7 +6,7 @@ Installation
 
 It is better to install it using virtualenv/virtualenwrapper::
 
-    pip install pyzmq-static
+    pip install pyzmq
     
     
 ØMQ Version
