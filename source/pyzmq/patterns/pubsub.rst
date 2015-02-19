@@ -63,10 +63,4 @@ Other things to note:
 
 * A publisher has no connected subscribers, then it will simply drop all messages.
 * If you're using TCP, and a subscriber is slow, messages will queue up on the publisher.
-* In the current versions of ØMQ, filtering happens at the subscriber side, not the publisher side.
-    
- 
-
-
-
-
+* From ZeroMQ v3.x, filtering happens at the publisher side when using a connected protocol (`tcp://` or `ipc://`). Using the `epgm://` protocol, filtering happens at the subscriber side. In ZeroMQ v2.x, all filtering happened at the subscriber side
