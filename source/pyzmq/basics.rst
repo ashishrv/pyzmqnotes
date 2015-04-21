@@ -25,7 +25,6 @@ It is better to install it using virtualenv/virtualenwrapper::
 Before using any ØMQ library functions, the caller must initialize a ØMQ context::
 
     import zmq
-    import time
     context = zmq.Context()
     
 Contexts are thread safe unlike sockets. An application can create and manage multiple contexts.
