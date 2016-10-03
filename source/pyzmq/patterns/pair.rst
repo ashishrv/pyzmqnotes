@@ -40,8 +40,8 @@ There is no need to think whether you have read the complete message or not.
 
 running it::
 
-    python pairserver.py <port>
-    python pairclient.py <port>
+    python pairserver.py
+    python pairclient.py
     
 
  
