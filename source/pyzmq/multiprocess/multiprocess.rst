@@ -6,7 +6,7 @@ This was due to the fact that each program had a while loop that would run for e
 Only way is to invoke these little programs separately. 
 
 This served well to understand the various ØMQ patterns and devices.
-How ever, it is far better to use multiprocessing module.
+However, it is far better to use multiprocessing module.
 
 This part of tutorial has nothing to do with ØMQ but how we use it with python programs.
 
