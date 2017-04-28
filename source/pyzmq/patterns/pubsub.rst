@@ -39,7 +39,7 @@ You should notice that a zmq subscriber can connect to many publishers.
     :lines: 1-22
     :emphasize-lines: 15,18,21
 
-The current version of zmq supports filtering of messages based on topics at subscriber side.
+The current version of zmq (3.2 and later) supports filtering of messages based on topics at publisher side.
 This is usually set via socketoption.
 
 .. literalinclude:: code/sub_client.py
