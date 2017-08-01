@@ -39,7 +39,7 @@ Various links for understanding ZeroMQ
 * `Python Multiprocessing with ZeroMQ <http://taotetek.wordpress.com/2011/02/02/python-multiprocessing-with-zeromq/>`_ 
 * `Python work queue with zeromq <http://blog.garambrogne.net/post/2010/10/23/simple-python-work-queue-with-zeromq>`_ 
 * `Que handler and 0MQ <http://plumberjack.blogspot.com/2010/09/queuehandler-and-zeromq-support.html>`_ 
-* `PupSub example with 0MQ <http://code.saghul.net/implementing-a-pubsub-based-application-with>`_ 
+* `PupSub example with 0MQ <https://web.archive.org/web/20111221151410/http://code.saghul.net/implementing-a-pubsub-based-application-with>`_ 
 * `Learning 0MQ example <http://joerussbowman.tumblr.com/post/5817613543/zeromq-lessons-learned-with-pyzmq-use-zmqstream>`_ 
 * `Messaging a high level intro <http://www.rubyinside.com/why-rubyists-should-care-about-messaging-a-high-level-intro-5017.html>`_ 
 * `ZMQ pupsub <http://techno-weenie.net/2011/6/17/zeromq-pub-sub/>`_ 
