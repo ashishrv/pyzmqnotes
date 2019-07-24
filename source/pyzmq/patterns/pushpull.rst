@@ -27,7 +27,7 @@ Producers are created with ZMQ.PUSH socket types. Producer is bound to well know
 
 **consumer.py**
 
-Producers are created with ZMQ.PULL socket types to pull requests from producer and uses a push socket to connect and push result to result collector.  
+Consumers are created with ZMQ.PULL socket types to pull requests from producer and uses a push socket to connect and push result to result collector.  
 
 .. literalinclude:: code/consumer.py
     :lines: 1-24
