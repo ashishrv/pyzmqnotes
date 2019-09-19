@@ -4,7 +4,7 @@ Streamer
 .. topic:: Streamer device
 
     is a device for parallelized pipeline messaging. 
-    Acts as a broker that callects tasks from task feeders and supplies them to task workers.
+    Acts as a broker that collects tasks from task feeders and supplies them to task workers.
     
     
 
