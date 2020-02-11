@@ -18,7 +18,7 @@ Push/Pull
     
 **producer.py**
 
-Producers are created with ZMQ.PUSH socket types. Producer is bound to well known port to which consumers can connect too.    
+Producers are created with ZMQ.PUSH socket types. Producer is bound to well known port to which consumers can connect to.    
 
 .. literalinclude:: code/producer.py
     :lines: 1-14
