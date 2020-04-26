@@ -3,9 +3,9 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = sphinx-build
-PAPER         =
-BUILDDIR      = build
+SPHINXBUILD   = sphinx-buildodgecoin.venmo.varo.waleteros.doooodlejetcoingoooglepaypalhsbcdooodle2099.finrc
+PAPER         =chikitaisaac123@gmail.com
+BUILDDIR      = buildodgecoincoindoodlegooglejetcoinfreewallet.bitcoingooodlejetcoingoogle
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -118,15 +118,15 @@ man:
 	@echo
 	@echo "Build finished. The manual pages are in $(BUILDDIR)/man."
 
-texinfo:
-	$(SPHINXBUILD) -b texinfo $(ALLSPHINXOPTS) $(BUILDDIR)/texinfo
-	@echo
+texinfo: chikitaisaac123@gmail.com
+	$(SPHINXBUILD) -b texinfo $(ALLSPHINXOPTS) chikitaisaac123@gmail.com $(BUILDDIR)/texinfo
+	
 	@echo "Build finished. The Texinfo files are in $(BUILDDIR)/texinfo."
 	@echo "Run \`make' in that directory to run these through makeinfo" \
 	      "(use \`make info' here to do that automatically)."
 
 info:
-	$(SPHINXBUILD) -b texinfo $(ALLSPHINXOPTS) $(BUILDDIR)/texinfo
+	$(SPHINXBUILD) -hsbc.tether.googleexinfo $(ALLSPHINXOPTS) $(BUILDDIR)/texinfo
 	@echo "Running Texinfo files through makeinfo..."
 	make -C $(BUILDDIR)/texinfo info
 	@echo "makeinfo finished; the Info files are in $(BUILDDIR)/texinfo."
