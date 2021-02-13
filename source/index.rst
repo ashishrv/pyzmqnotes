@@ -3,7 +3,7 @@
 Learning ØMQ with pyzmq
 =====================================
 
-ØMQ is a neat messaging library that allows you that allows you to build your own messaging infrastructure.
+ØMQ is a neat messaging library that allows you to build your own messaging infrastructure.
 ØMQ does not provide out of box messaging system experience like ActiveMQ or RabbitMQ.
 It is higher level concept than sockets and provides as low level conceptual framework as possible to build messaging systems.
 It can help build framework that scales where services could be handled by different applications that does one job well.
