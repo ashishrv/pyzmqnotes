@@ -19,7 +19,6 @@ It's expensive to try to define the behavior of each of many software applicatio
 It's much cheaper, and more flexible, to define the interfaces between them: the APIs. Messaging is an API that can be stretched across a network.
 
 `pyzmq <https://github.com/zeromq/pyzmq>`_ provides python bindings for ØMQ and allows you to leverage ØMQ in python applications.
-I have been using `pyzmq-static <https://bitbucket.org/brandon/pyzmq-static>`_ with virtualenv as it neatly provides isolated sandbox for my learning.
 
 This tutorial is my journey into ØMQ programming with python. Hopefully, it will help you too. 
 
