@@ -18,7 +18,7 @@ if len(sys.argv) > 2:
     socket.connect ("tcp://localhost:%s" % port1)
 
 #  Do 10 requests, waiting each time for a response
-for request in range (1,10):
+for request in range (1,11):
     print "Sending request ", request,"..."
     socket.send ("Hello")
     #  Get the reply.
